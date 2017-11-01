@@ -19,10 +19,9 @@
 
 h1, h2, h3, .navbar {
     font-family: 'Josefin Sans', sans-serif;
-    color: white;
 }
 
-body, .navbar {
+.navbar, .home-callout {
     //Color gradient by @_ighosh at uiGradients.com
     background: #23074d;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
@@ -32,3 +31,11 @@ body, .navbar {
 .navbar {
     border: none;
 }
+
+.home-callout {
+    color: white;
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
