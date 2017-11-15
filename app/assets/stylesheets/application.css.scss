@@ -17,6 +17,9 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
 // Typography styles
 h1, h2, h3, .navbar {
   font-family: 'Josefin Sans', sans-serif;
